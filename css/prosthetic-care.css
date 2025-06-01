@@ -1,0 +1,354 @@
+:root {
+  --primary-purple: #897ae3;
+  --dark-blue: #101840;
+  --light-purple: #f0edff;
+  --white: #ffffff;
+  --black: #101840;
+  --gray-text: #6d738f;
+  --navy-bg: #0a0e27;
+}
+
+body {
+  font-family: "Almarai";
+  background-color: var(--navy-bg);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.navbar-container {
+  width: 1170px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 8px 0px #3333331f;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  position: relative;
+}
+
+.navbar-content {
+  width: 1102.37px;
+  height: 63.59px;
+  position: absolute;
+  top: 16px;
+  left: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-btn {
+  width: 168px;
+  height: 48px;
+  background: var(--primary-purple);
+  border-radius: 8px;
+  color: var(--white);
+  font-weight: 700;
+  border: none;
+  padding: 12px 32px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-links li a {
+  color: var(--gray-text);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.left-actions {
+  display: flex;
+  align-items: center;
+}
+
+
+.main-content {
+  width: 1170px;
+  display: flex;
+  position: relative;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.robotic-hand-section {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.robotic-hand-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.content-section {
+  width: 45%;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.path-text {
+  font-size: 16px;
+  color: var(--white);
+  margin-bottom: 20px;
+  text-align: right;
+  font-family: "Almarai", sans-serif;
+  color: var(--primary-purple);
+}
+
+.main-heading {
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 48px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.description-text {
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  color: var(--white);
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.discover-btn {
+  width: 120px;
+  height: 48px;
+  background: var(--primary-purple);
+  border-radius: 8px;
+  color: var(--white);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  margin-bottom: 30px;
+}
+
+.stats-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  flex: 1; 
+  margin-top: 100px;
+  gap: 40px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 147px;
+  height: 108px;
+  gap: 8px;
+  font-size: 68px;
+}
+
+.stat-value {
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  color: var(--white);
+}
+
+.stat-label {
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--gray-text);
+}
+
+.play-button {
+  width: 72px;
+  height: 72px;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: 0px 0px 50px 0px #9747ff;
+}
+
+.play-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--primary-purple);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px; 
+  margin-top: -50px; 
+}
+
+.personal-care-section {
+  display: flex;
+  flex-direction: row;
+  flex: 1; 
+}
+
+.personal-care-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 307px;
+  height: 378px;
+}
+
+.personal-care-content {
+  flex: 1;
+  width: 307px;
+  height: 378px;
+  background-color: #2b3147b2;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}
+
+.personal-care-icon {
+  width: 87px;
+  height: 87px;
+  margin-bottom: 20px;
+
+  top: 32px;
+  left: 508px;
+}
+
+.personal-care-title {
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 20px;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.personal-care-description {
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--white);
+  text-align: right;
+}
+
+.personal-care-link {
+  color: var(--primary-purple);
+  text-decoration: none;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 112px;
+  height: 24px;
+  top: 295px;
+  left: 483px;
+  gap: 8px;
+}
+
+
+@media (max-width: 1200px) {
+  .navbar-container,
+  .main-content,
+  .personal-care-section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-container {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .navbar-content {
+    width: calc(100% - 40px);
+    left: 20px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .robotic-hand-section,
+  .content-section {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .content-section {
+    margin-top: 40px;
+  }
+
+  .personal-care-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .personal-care-image,
+  .personal-care-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
